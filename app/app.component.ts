@@ -98,8 +98,10 @@ export class AppComponent {
   title = 'Tour of Heroes';
   //hero = 'Windstrom';
 
+  //master-detail
   heroes = HEROES;
 
+  //
   selectedHero : Hero;
 
   onSelect(hero:Hero): void {
